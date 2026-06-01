@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ecosystem Garden</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="garden"></canvas>
+
+  <div id="ui">
+
+    <h1>Ecosystem Garden</h1>
+
+    <div id="controls">
+
+      <button onclick="setTimeScale(1)">
+        1x
+      </button>
+
+      <button onclick="setTimeScale(10)">
+        10x
+      </button>
+
+      <button onclick="setTimeScale(20)">
+        20x
+      </button>
+
+      <button onclick="setTimeScale(100)">
+        100x
+      </button>
+
+    </div>
+
+    <p>
+      Click anywhere on the ground to plant a seed
+    </p>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
